@@ -1,0 +1,40 @@
+ /* Reset default margins and set full height */
+body {
+    margin: 0;
+    min-height: 100vh;
+    /* This ensures the content is centered vertically in the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container that holds our two divs */
+.container {
+    /* Use flexbox for horizontal layout */
+    display: flex;
+    /* Center the divs horizontally */
+    justify-content: center;
+    /* Create space between the divs */
+    gap: 270px;
+    /* Optional: Add some padding around the whole container */
+    padding: 20px;
+}
+
+/* Style for each box */
+.box {
+    /* Fixed width for demonstration */
+    width: 280px;
+    height: 320px;
+    /* Add some visual styles */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    /* Add a subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Center the text inside each box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
